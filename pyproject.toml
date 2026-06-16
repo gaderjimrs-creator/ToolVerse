@@ -1,24 +1,40 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "MyPythonLibrary"
 version = "1.2.0"
-authors = [
-    {name = "Mohammed Ayaz"}
-]
 description = "A personal Python utility library"
 readme = "README.md"
 requires-python = ">=3.10"
-license = {file = "LICENSE"}
+
+authors = [
+    { name = "Mohammed Ayaz" }
+]
+
+license = { file = "LICENSE" }
+
+keywords = [
+    "python",
+    "utilities",
+    "calculator",
+    "password-generator",
+    "string-tools",
+    "file-tools"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
 
 dependencies = [
     "psutil"
 ]
 
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
+[project.urls]
+Homepage = "https://github.com/gaderjimrs-creator/MyPythonLibrary"
+Repository = "https://github.com/gaderjimrs-creator/MyPythonLibrary"
+Issues = "https://github.com/gaderjimrs-creator/MyPythonLibrary/issues"
