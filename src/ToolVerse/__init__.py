@@ -9,7 +9,7 @@ from .string_tools import stringtools
 from .student_tools import studenttools
 from .system_tools import systemtools
 
-__version__ = "1.2.1"
+__version__ = "1.2.2"
 
 __all__ = [
     "calculator",
