@@ -84,3 +84,6 @@ class filetools:
             os.rename(old_path, new_path)
         else:
             return "File does not exist"
+
+FileTools = filetools
+FILETOOLS = filetools

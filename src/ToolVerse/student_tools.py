@@ -167,3 +167,6 @@ class studenttools:
             if student_percentage is not None and student_percentage < percentage:
                 students_below.append(student_id)
         return students_below
+
+StudentTools = studenttools
+STUDENTTOOLS = studenttools

@@ -45,3 +45,6 @@ class stringtools:
     
     def remove_spaces(self):
         return self.string.replace(" ", "")
+
+StringTools = stringtools
+STRINGTOOLS = stringtools

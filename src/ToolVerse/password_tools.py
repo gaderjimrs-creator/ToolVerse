@@ -86,3 +86,6 @@ class passwordtools:
         digits = '0123456789'
         pin = ''.join(random.choice(digits) for _ in range(length))
         return pin
+
+PasswordTools = passwordtools
+PASSWORDTOOLS = passwordtools

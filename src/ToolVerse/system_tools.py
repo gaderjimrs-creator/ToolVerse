@@ -153,3 +153,5 @@ class systemtools:
         else:
             return "System load not available"
     
+SystemTools = systemtools
+SYSTEMTOOLS = systemtools

@@ -109,3 +109,6 @@ class conversiontools:
     
     def kelvin_to_fahrenheit(self, kelvin):
         return (kelvin - 273.15) * 9/5 + 32
+
+ConversionTools = conversiontools
+CONVERSIONTOOLS = conversiontools

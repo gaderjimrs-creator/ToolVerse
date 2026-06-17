@@ -186,3 +186,5 @@ class calculator:
         mode = [num for num, freq in mode_data if freq == mode_data[0][1]]
         return mode
     
+Calculator = calculator
+CALCULATOR = calculator

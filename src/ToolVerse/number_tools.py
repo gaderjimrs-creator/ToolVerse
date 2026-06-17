@@ -65,3 +65,6 @@ class numbertools:
             for i in range(2, number + 1):
                 result *= i
             return result
+
+NumberTools = numbertools
+NUMBERTOOLS = numbertools
