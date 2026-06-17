@@ -1,4 +1,4 @@
-class NumberTools:
+class numbertools:
     def __init__(self):
         pass
 
@@ -55,7 +55,7 @@ class NumberTools:
     def binary_to_decimal(self, binary_str):
         return int(binary_str, 2)
     
-    def fectorial(self, number):
+    def factorial(self, number):
         if number < 0:
             return "Factorial of negative number is not allowed"
         elif number == 0 or number == 1:

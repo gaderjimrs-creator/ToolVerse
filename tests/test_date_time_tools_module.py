@@ -1,6 +1,6 @@
-from ToolVerse.date_time_tools import DateTimeTools
+from ToolVerse.date_time_tools import datetimetools
 
-tool = DateTimeTools()
+tool = datetimetools()
 
 def test_days_between_dates():
     assert tool.days_between_dates(

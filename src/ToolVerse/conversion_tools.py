@@ -1,4 +1,4 @@
-class ConversionTools:
+class conversiontools:
     def __init__(self):
         pass
 

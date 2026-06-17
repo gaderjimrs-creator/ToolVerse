@@ -1,7 +1,7 @@
 import os
 import shutil
 
-class FileTools:
+class filetools:
     def __init__(self):
         pass
 

@@ -1,9 +1,14 @@
 # ToolVerse
 
-A powerful Python utility library created by **Mohammed Ayaz**.
-This library provides ready-to-use tools for calculations, string operations, number utilities, password generation, file handling, date & time operations, random generators, student management, system utilities, and more.
+A powerful Python utility library that provides ready-to-use tools for calculations, string manipulation, file handling, date and time operations, password generation, random utilities, student management, system information, and more.
 
----
+## Installation
+
+Install from PyPI:
+
+```bash
+pip install ToolVerse
+```
 
 ## Features
 
@@ -17,39 +22,17 @@ This library provides ready-to-use tools for calculations, string operations, nu
 | password_tools   | Password generation and security tools          |
 | random_tools     | Random values, strings, dates, and passwords    |
 | string_tools     | String manipulation utilities                   |
-| student_tools    | Student management and reporting system         |
+| student_tools    | Student management and reporting utilities      |
 | system_tools     | System and OS information utilities             |
 
----
-
-## Installation
-
-Install directly from GitHub:
-
-```bash
-pip install git+https://github.com/gaderjimrs-creator/MyPythonLibrary.git
-```
-
-Or clone the repository:
-
-```bash
-git clone https://github.com/gaderjimrs-creator/MyPythonLibrary.git
-
-cd MyPythonLibrary
-
-pip install .
-```
-
----
-
-## Usage Examples
+## Quick Start
 
 ### Calculator
 
 ```python
-from ToolVerse.calculator import MyCalculator
+from ToolVerse.calculator import calculator
 
-calc = MyCalculator()
+calc = calculator()
 
 print(calc.add(10, 5))
 print(calc.sub(10, 5))
@@ -60,9 +43,9 @@ print(calc.div(10, 5))
 ### Password Generator
 
 ```python
-from ToolVerse.password_tools import MyPasswordTools
+from ToolVerse.password_tools import passwordtools
 
-pwd = MyPasswordTools()
+pwd = passwordtools()
 
 print(pwd.generate_password())
 print(pwd.generate_strong_password())
@@ -71,9 +54,9 @@ print(pwd.generate_strong_password())
 ### String Tools
 
 ```python
-from ToolVerse.string_tools import MyStringTools
+from ToolVerse.string_tools import stringtools
 
-s = MyStringTools()
+s = stringtools()
 
 s.set_string("Hello World")
 
@@ -82,49 +65,19 @@ print(s.to_uppercase())
 print(s.count_words())
 ```
 
----
-
-## Modules Included
-
-* calculator
-* conversion_tools
-* date_time_tools
-* file_tools
-* number_tools
-* password_tools
-* random_tools
-* string_tools
-* student_tools
-* system_tools
-
----
-
 ## Running Tests
-
-Run all tests using:
 
 ```bash
 pytest
 ```
 
-Expected result:
-
-```bash
-25 passed
-```
-
----
-
 ## Project Structure
 
 ```text
-MyPythonLibrary/
-│
+ToolVerse/
 ├── src/
-│   └── MyPythonLibrary/
-│
+│   └── ToolVerse/
 ├── tests/
-│
 ├── README.md
 ├── LICENSE
 ├── pyproject.toml
@@ -132,26 +85,11 @@ MyPythonLibrary/
 └── setup.py
 ```
 
----
-
-## Continuous Integration
-
-GitHub Actions automatically runs all tests on every push and pull request.
-
----
-
 ## License
 
-This project is licensed under the terms of the LICENSE file included in this repository.
+MIT License
 
----
-
-## Author
-
-**Mohammed Ayaz**
+## Repository
 
 GitHub:
-https://github.com/gaderjimrs-creator
-
-Python Developer | Open Source Enthusiast
-
+https://github.com/gaderjimrs-creator/MyPythonLibrary

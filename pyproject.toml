@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ToolVerse"
-version = "1.2.0"
-description = "A personal Python utility library"
+version = "1.2.1"
+description = "A powerful Python utility library with calculator, string, file, password, random, system and utility tools."
 readme = "README.md"
 requires-python = ">=3.10"
 
@@ -13,20 +13,22 @@ authors = [
     { name = "Mohammed Ayaz" }
 ]
 
-license = { file = "LICENSE" }
+license = "MIT"
 
 keywords = [
     "python",
     "utilities",
     "calculator",
-    "password-generator",
+    "password",
+    "random",
+    "file-tools",
     "string-tools",
-    "file-tools"
+    "student-tools",
+    "system-tools"
 ]
 
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
 

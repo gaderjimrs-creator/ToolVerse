@@ -1,4 +1,4 @@
-class DateTimeTools:
+class datetimetools:
     def __init__(self):
         pass
 

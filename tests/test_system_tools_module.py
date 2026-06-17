@@ -1,6 +1,6 @@
-from ToolVerse.system_tools import SystemTools
+from ToolVerse.system_tools import systemtools
 
-tool = SystemTools()
+tool = systemtools()
 
 def test_os_name():
     assert isinstance(tool.get_os_name(), str)

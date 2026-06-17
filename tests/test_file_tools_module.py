@@ -1,6 +1,6 @@
-from ToolVerse.file_tools import FileTools
+from ToolVerse.file_tools import filetools
 
-tool = FileTools()
+tool = filetools()
 
 
 def test_write_and_read_file(tmp_path):

@@ -1,4 +1,4 @@
-class PasswordTools:
+class passwordtools:
     def __init__(self):
         pass
 

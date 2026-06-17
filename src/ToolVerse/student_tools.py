@@ -1,4 +1,4 @@
-class StudentTools:
+class studenttools:
     def __init__(self):
         self.students = {}
 

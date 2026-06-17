@@ -1,4 +1,4 @@
-class StringTools:
+class stringtools:
     def __init__(self):
         self.string = ""
 
