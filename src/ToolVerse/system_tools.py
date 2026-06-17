@@ -2,7 +2,7 @@ import psutil
 import os
 
 
-class MySystemTools:
+class SystemTools:
     def __init__(self):
         pass
 

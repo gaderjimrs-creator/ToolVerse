@@ -1,4 +1,4 @@
-# MyPythonLibrary
+# ToolVerse
 
 A powerful Python utility library created by **Mohammed Ayaz**.
 This library provides ready-to-use tools for calculations, string operations, number utilities, password generation, file handling, date & time operations, random generators, student management, system utilities, and more.
@@ -47,7 +47,7 @@ pip install .
 ### Calculator
 
 ```python
-from MyPythonLibrary.calculator import MyCalculator
+from ToolVerse.calculator import MyCalculator
 
 calc = MyCalculator()
 
@@ -60,7 +60,7 @@ print(calc.div(10, 5))
 ### Password Generator
 
 ```python
-from MyPythonLibrary.password_tools import MyPasswordTools
+from ToolVerse.password_tools import MyPasswordTools
 
 pwd = MyPasswordTools()
 
@@ -71,7 +71,7 @@ print(pwd.generate_strong_password())
 ### String Tools
 
 ```python
-from MyPythonLibrary.string_tools import MyStringTools
+from ToolVerse.string_tools import MyStringTools
 
 s = MyStringTools()
 

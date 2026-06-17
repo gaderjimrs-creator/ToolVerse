@@ -1,6 +1,6 @@
-from MyPythonLibrary.conversion_tools import MyConversionTools
+from ToolVerse.conversion_tools import ConversionTools
 
-tool = MyConversionTools()
+tool = ConversionTools()
 
 def test_celsius_to_fahrenheit():
     assert tool.celsius_to_fahrenheit(0) == 32

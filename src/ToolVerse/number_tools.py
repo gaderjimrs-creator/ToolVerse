@@ -1,4 +1,4 @@
-class MyNumberTools:
+class NumberTools:
     def __init__(self):
         pass
 

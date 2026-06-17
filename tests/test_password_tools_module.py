@@ -1,6 +1,6 @@
-from MyPythonLibrary.password_tools import MyPasswordTools
+from ToolVerse.password_tools import PasswordTools
 
-tool = MyPasswordTools()
+tool = PasswordTools()
 
 def test_hash_password():
     hashed = tool.hash_password("hello")

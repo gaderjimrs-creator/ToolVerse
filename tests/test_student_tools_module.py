@@ -1,6 +1,6 @@
-from MyPythonLibrary.student_tools import MyStudentTools
+from ToolVerse.student_tools import StudentTools
 
-tool = MyStudentTools()
+tool = StudentTools()
 
 def test_add_student():
     tool.add_student(1, "Ayaz", 17)

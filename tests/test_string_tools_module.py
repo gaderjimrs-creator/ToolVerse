@@ -1,6 +1,6 @@
-from MyPythonLibrary.string_tools import MyStringTools
+from ToolVerse.string_tools import StringTools
 
-tool = MyStringTools()
+tool = StringTools()
 
 def test_reverse_string():
     tool.set_string("hello")

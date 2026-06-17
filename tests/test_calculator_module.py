@@ -1,6 +1,6 @@
-from MyPythonLibrary.calculator import MyCalculator
+from ToolVerse.calculator import Calculator
 
-calc = MyCalculator()
+calc = Calculator()
 
 def test_add():
     assert calc.add(10, 3) == 13

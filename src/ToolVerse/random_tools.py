@@ -1,5 +1,5 @@
 import random
-class MyRandomTools:
+class RandomTools:
     def __init__(self):
         pass
 

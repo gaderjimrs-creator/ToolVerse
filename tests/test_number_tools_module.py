@@ -1,6 +1,6 @@
-from MyPythonLibrary.number_tools import MyNumberTools
+from ToolVerse.number_tools import NumberTools
 
-tool = MyNumberTools()
+tool = NumberTools()
 
 def test_even():
     assert tool.is_even(10) == True

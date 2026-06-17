@@ -1,6 +1,6 @@
-from MyPythonLibrary.random_tools import MyRandomTools
+from ToolVerse.random_tools import RandomTools
 
-tool = MyRandomTools()
+tool = RandomTools()
 
 def test_random_integer():
     result = tool.random_integer(1, 10)
