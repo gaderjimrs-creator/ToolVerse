@@ -8,8 +8,9 @@ from .random_tools import randomtools, RandomTools, RANDOMTOOLS
 from .string_tools import stringtools, StringTools, STRINGTOOLS
 from .student_tools import studenttools, StudentTools, STUDENTTOOLS
 from .system_tools import systemtools, SystemTools, SYSTEMTOOLS
+from .json_tools import jsontools, JsonTools, JSONTOOLS
 
-__version__ = "1.2.2"
+__version__ = "1.3.0"
 
 __all__ = [
     # Lowercase classes
@@ -23,6 +24,7 @@ __all__ = [
     "stringtools",
     "studenttools",
     "systemtools",
+    "jsontools",
 
     # PascalCase aliases
     "Calculator",
@@ -45,4 +47,6 @@ __all__ = [
     "STUDENTTOOLS",
     "SystemTools",
     "SYSTEMTOOLS",
+    "JsonTools",
+    "JSONTOOLS",
 ]

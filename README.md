@@ -24,6 +24,7 @@ pip install ToolVerse
 | string_tools     | String manipulation utilities                   |
 | student_tools    | Student management and reporting utilities      |
 | system_tools     | System and OS information utilities             |
+| json_tools       | JSON read, write and validation utilities       |
 
 ## Quick Start
 
@@ -63,6 +64,25 @@ s.set_string("Hello World")
 print(s.reverse_string())
 print(s.to_uppercase())
 print(s.count_words())
+```
+
+### json tools
+
+```python
+from ToolVerse.json_tools import jsontools
+
+jt = jsontools()
+
+data = {
+    "name": "Ayaz",
+    "age": 17
+}
+
+jt.write_json("data.json", data)
+
+print(jt.read_json("data.json"))
+
+print(jt.validate_json('{"name":"Ayaz"}'))
 ```
 
 ## Running Tests
