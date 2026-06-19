@@ -10,7 +10,7 @@ from .student_tools import studenttools, StudentTools, STUDENTTOOLS
 from .system_tools import systemtools, SystemTools, SYSTEMTOOLS
 from .json_tools import jsontools, JsonTools, JSONTOOLS
 
-__version__ = "1.3.0"
+__version__ = "1.3.1"
 
 __all__ = [
     # Lowercase classes
