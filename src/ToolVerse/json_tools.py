@@ -47,7 +47,9 @@ class jsontools:
         Convert JSON string to Python object
         """
         return json.loads(json_string)
-
+    
+    def merge_json(self, data1, data2):
+        return json.merge(data1, data2)
 
 # Aliases
 JsonTools = jsontools
