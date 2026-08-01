@@ -48,9 +48,17 @@ class jsontools:
         """
         return json.loads(json_string)
     
-    def merge_json(self, data1, data2):
-        return json.merge(data1, data2)
-
+def merge_json(self, json1, json2):
+      """
+      Merge two JSON objects
+      """
+      if isinstance(json1, dict) and isinstance(json2, dict):
+          merged = json1.copy()
+          merged.update(json2)
+          return merged
+      else:
+          raise ValueError("Both inputs must be JSON objects (dicts).")
+        
 # Aliases
 JsonTools = jsontools
 JSONTOOLS = jsontools
